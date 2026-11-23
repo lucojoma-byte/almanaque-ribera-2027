@@ -1,0 +1,833 @@
+{
+  "hoja": "SIEMBRA",
+  "tablas": {
+    "Cultivos": [
+      {
+        "Cultivo": "Jitomate",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "Feb–abr, protegido",
+        "Meses de trasplante": "Mar–may",
+        "Cosecha (días o meses)": "120 días · ciclo",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Coloca el tutor al trasplantar. Espera a que pasen las noches frías.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo [2]. Sensibilidad al frío [8]."
+      },
+      {
+        "Cultivo": "Chile serrano",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "Feb–abr, protegido",
+        "Meses de trasplante": "Abr–jun",
+        "Cosecha (días o meses)": "120 días · ciclo del chile",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Pasa las plantas al exterior gradualmente. El semillero necesita calor estable.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo genérico del chile [2]."
+      },
+      {
+        "Cultivo": "Maíz para elote",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Jun, con temporal establecido",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "90–120 días · ciclo del maíz",
+        "Necesita lluvias o riego": "Temporal establecido o riego de apoyo en periodos secos.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Siembra en bloque para facilitar la polinización. Corta el elote cuando el grano esté lechoso.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo genérico [2]. Avance de temporal en junio de 2025 en Jalisco [9]."
+      },
+      {
+        "Cultivo": "Frijol de mata",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Jun–jul",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "80–120 días · grano seco desde siembra",
+        "Necesita lluvias o riego": "Temporal establecido o riego de apoyo en periodos secos.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Para guardar grano, espera a que las vainas se sequen en la planta.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Ejote de guía",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Mar–abr con riego o jun–jul de temporal",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "70 días · ciclo",
+        "Necesita lluvias o riego": "Temporal establecido o riego de apoyo en periodos secos.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Instala una espaldera antes de que se alarguen las guías. Recoge las vainas tiernas.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y siembra directa [2]."
+      },
+      {
+        "Cultivo": "Calabaza de guarda",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Jun–jul",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "80 días · ciclo de referencia",
+        "Necesita lluvias o riego": "Temporal establecido o riego de apoyo en periodos secos.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Reserva espacio para las guías y espera a que endurezca la cáscara antes de almacenar.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y siembra directa [2]."
+      },
+      {
+        "Cultivo": "Calabacita italiana",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Mar–abr con riego o jun–jul de temporal",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "45 días · ciclo",
+        "Necesita lluvias o riego": "Temporal establecido o riego de apoyo en periodos secos.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Corta los frutos tiernos con frecuencia para alargar la producción.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y siembra directa [2]."
+      },
+      {
+        "Cultivo": "Pepino",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Mar–may con riego o jun–jul",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "90 días · ciclo",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Levanta las guías sobre una malla y riega al pie para conservar seco el follaje.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y siembra directa [2]."
+      },
+      {
+        "Cultivo": "Tomate verde de cáscara",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Mar–jun",
+        "Meses de almácigo": "Feb–abr",
+        "Meses de trasplante": "Mar–jun",
+        "Cosecha (días o meses)": "90 días · ciclo",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Planta al menos dos ejemplares de semilla distinta para favorecer el cuajado.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y métodos de siembra [2]."
+      },
+      {
+        "Cultivo": "Lechuga de hoja",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Oct–feb",
+        "Meses de almácigo": "Oct–ene",
+        "Meses de trasplante": "Nov–feb",
+        "Cosecha (días o meses)": "90–100 días · ciclo de lechuga. Hoja tierna antes.",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Escalona lotes pequeños. Si sube la temperatura, da sombra ligera por la tarde.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Temporada de cultivo en Zapopan [1]. Ciclo genérico [2]."
+      },
+      {
+        "Cultivo": "Cilantro",
+        "Tipo": "Hierba",
+        "Meses de siembra directa": "Ene–dic con riego",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "55 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Siembra pocas semillas cada vez. En calor recoge hojas antes de que salga la vara floral.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Cultivo anual en Zapopan [1]. Ciclo y método [2]."
+      },
+      {
+        "Cultivo": "Zanahoria",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Ene–dic con riego",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "110 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Menguante · tradicional",
+        "Consejo práctico": "Desmenuza el suelo y retira piedras. Aclara las plántulas donde nacieron.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Cultivo anual en Zapopan [1]. Ciclo y método [2]."
+      },
+      {
+        "Cultivo": "Rábano",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Ene–dic con riego",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "30 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Menguante · tradicional",
+        "Consejo práctico": "Siembra un tramo corto por tanda y revisa el diámetro de la raíz antes de arrancar el lote.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Cultivo anual en Zapopan [1]. Ciclo y método [2]."
+      },
+      {
+        "Cultivo": "Espinaca",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Ene–dic con riego. Prioriza oct–feb.",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "45 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Reserva el lugar más fresco en primavera. Sustituye el lote en cuanto espigue.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Cultivo anual en Zapopan [1]. Ciclo y método [2]."
+      },
+      {
+        "Cultivo": "Acelga",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Sep–mar",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "60 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Corta primero las hojas exteriores y conserva el centro para obtener más cortes.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y siembra directa [2]."
+      },
+      {
+        "Cultivo": "Betabel",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Oct–feb",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "85 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Menguante · tradicional",
+        "Consejo práctico": "Aclara después de la emergencia. De un mismo glomérulo pueden salir varias plántulas.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y siembra directa [2]."
+      },
+      {
+        "Cultivo": "Ajo",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Oct–nov, por dientes",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "180 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Menguante · tradicional",
+        "Consejo práctico": "Usa dientes firmes y sepáralos justo antes de plantar. Reduce el riego al madurar.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y estación otoño–invierno [2]."
+      },
+      {
+        "Cultivo": "Cebolla de bulbo",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "Oct–dic",
+        "Meses de trasplante": "Nov–feb",
+        "Cosecha (días o meses)": "120 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Menguante · tradicional",
+        "Consejo práctico": "Pide en vivero una variedad de día corto adecuada a la zona.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Temporada de cultivo en Zapopan [1]. Ciclo y trasplante [2]."
+      },
+      {
+        "Cultivo": "Brócoli",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "Sep–dic",
+        "Meses de trasplante": "Oct–feb",
+        "Cosecha (días o meses)": "85 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Corta la cabeza central mientras los botones sigan cerrados.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Temporada de cultivo en Zapopan [1]. Ciclo y trasplante [2]."
+      },
+      {
+        "Cultivo": "Col o repollo",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "Sep–dic",
+        "Meses de trasplante": "Oct–feb",
+        "Cosecha (días o meses)": "110 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Vigila el envés de las hojas jóvenes para detectar orugas antes de que se cierre el cogollo.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Temporada de cultivo en Zapopan [1]. Ciclo y trasplante [2]."
+      },
+      {
+        "Cultivo": "Coliflor",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "Sep–dic",
+        "Meses de trasplante": "Oct–feb",
+        "Cosecha (días o meses)": "90 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Mantén humedad uniforme durante la formación de la cabeza.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Temporada de cultivo en Zapopan [1]. Ciclo y trasplante [2]."
+      },
+      {
+        "Cultivo": "Chícharo",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Oct–ene",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "90 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Coloca una guía baja si es trepador. La flor es más delicada que la planta.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y siembra directa [2]."
+      },
+      {
+        "Cultivo": "Haba",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Oct–dic",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "90–150 días · vaina tierna desde siembra",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "En un patio con viento, sujeta tallos cargados antes de que se doblen.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Chayote",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Mar–jun, fruto germinado",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "90–120 días · ciclo",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Elige un fruto ya brotado y una estructura que aguante el peso de la enredadera.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y plantación directa [2]."
+      },
+      {
+        "Cultivo": "Apio",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "Sep–nov",
+        "Meses de trasplante": "Nov–ene",
+        "Cosecha (días o meses)": "180 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "El cepellón debe conservar humedad. En maceta pequeña se seca con rapidez.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y trasplante [2]."
+      },
+      {
+        "Cultivo": "Epazote",
+        "Tipo": "Hierba",
+        "Meses de siembra directa": "Mar–jul",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "45–75 días · primeros cortes desde siembra",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Reserva una maceta para controlar las semillas que caen al suelo.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Perejil",
+        "Tipo": "Hierba",
+        "Meses de siembra directa": "Sep–mar",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "80 días · ciclo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Conserva húmeda la superficie del semillero durante la germinación y corta tallos externos.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Ciclo y siembra directa [2]."
+      },
+      {
+        "Cultivo": "Albahaca",
+        "Tipo": "Hierba",
+        "Meses de siembra directa": "Mar–jun",
+        "Meses de almácigo": "Feb–abr, protegida",
+        "Meses de trasplante": "Mar–jun",
+        "Cosecha (días o meses)": "45–70 días · hojas desde siembra",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Despunta sobre un par de hojas para que se ramifique.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Hierbabuena",
+        "Tipo": "Hierba",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Mar–jun, división con raíz",
+        "Cosecha (días o meses)": "1–2 meses · primeros cortes tras plantar",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Usa un recipiente propio para contener los tallos que enraízan al tocar el suelo.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Romero",
+        "Tipo": "Hierba",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Mar–may, planta enraizada",
+        "Cosecha (días o meses)": "2–4 meses · cortes ligeros desde trasplante",
+        "Necesita lluvias o riego": "Riego de establecimiento. Deja secar entre riegos y evita encharcar.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Dale sol y una mezcla porosa. Comprueba la humedad antes de volver a regar.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Nopal verdura",
+        "Tipo": "Hortaliza",
+        "Meses de siembra directa": "Mar–may, penca cicatrizada",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "4–8 meses · brotes desde la plantación",
+        "Necesita lluvias o riego": "Riego de establecimiento. Deja secar entre riegos y evita encharcar.",
+        "Sensible a heladas": "Sí, brote tierno",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Deja cicatrizar el corte de la penca antes de plantarla en tierra con buen drenaje.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Aguacate injertado",
+        "Tipo": "Frutal",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Jun–jul, planta de vivero",
+        "Cosecha (días o meses)": "36–60 meses · primer fruto tras plantar",
+        "Necesita lluvias o riego": "Riego de establecimiento y en secas. Descuenta la lluvia efectiva.",
+        "Sensible a heladas": "Sí, según raza y edad",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Pide el nombre de la variedad y del portainjerto. Evita suelo que permanezca saturado.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Injerto [3]. La tolerancia al frío varía con raza y edad [4]."
+      },
+      {
+        "Cultivo": "Limón mexicano",
+        "Tipo": "Frutal",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Mar–abr con riego o jun–jul",
+        "Cosecha (días o meses)": "24–48 meses · primer fruto de planta injertada",
+        "Necesita lluvias o riego": "Riego de establecimiento y en secas. Descuenta la lluvia efectiva.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Escoge un sitio soleado y deja el punto de injerto por encima del suelo.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Mango injertado",
+        "Tipo": "Frutal",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Jun–jul, planta de vivero",
+        "Cosecha (días o meses)": "36–60 meses · primer fruto tras plantar",
+        "Necesita lluvias o riego": "Riego de establecimiento y en secas. Descuenta la lluvia efectiva.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "A esta altitud, comprueba si fructifica la misma variedad en una casa cercana antes de comprar.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Propagación por injerto [3]."
+      },
+      {
+        "Cultivo": "Guayaba",
+        "Tipo": "Frutal",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Jun–jul, planta de acodo",
+        "Cosecha (días o meses)": "24–48 meses · primer fruto desde plantación",
+        "Necesita lluvias o riego": "Riego de establecimiento y en secas. Descuenta la lluvia efectiva.",
+        "Sensible a heladas": "Sí, planta joven",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Elige una planta de acodo si deseas conservar las características de la fruta madre.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Propagación por acodo [3]."
+      },
+      {
+        "Cultivo": "Plátano",
+        "Tipo": "Frutal",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Mar–jun, hijuelo enraizado",
+        "Cosecha (días o meses)": "12–24 meses · primer racimo desde plantación",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Busca un rincón cálido y protegido del viento. Confirma primero que haya agua en secas.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Propagación por división [3]."
+      },
+      {
+        "Cultivo": "Papaya",
+        "Tipo": "Frutal",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "Mar–may, recipientes individuales",
+        "Meses de trasplante": "May–jul",
+        "Cosecha (días o meses)": "7–11 meses · primer fruto en clima cálido de referencia",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Usa un lugar cálido sin encharcamientos. El frío a esta altitud puede impedir que madure el fruto.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Semilla [3]. Intervalo de Florida tras plantación [5]."
+      },
+      {
+        "Cultivo": "Agave ornamental (A. attenuata)",
+        "Tipo": "Ornamental",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Mar–may, hijuelo enraizado",
+        "Cosecha (días o meses)": "Sin cosecha · ornamental",
+        "Necesita lluvias o riego": "Riego de establecimiento. Deja secar entre riegos y evita encharcar.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Usa una maceta con salida de agua. Protege las hojas carnosas si hay aviso de helada.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Lavanda (L. angustifolia)",
+        "Tipo": "Hierba",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Mar–abr, planta enraizada",
+        "Cosecha (días o meses)": "3–6 meses · primer corte floral ligero desde trasplante",
+        "Necesita lluvias o riego": "Riego de establecimiento. Deja secar entre riegos y evita encharcar.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "En suelos pesados, prefiere maceta o montículo para que no se acumule agua en el cuello.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Drenaje y opción de esqueje [10]."
+      },
+      {
+        "Cultivo": "Bugambilia (B. glabra)",
+        "Tipo": "Ornamental",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Mar–jun, planta enraizada",
+        "Cosecha (días o meses)": "Sin cosecha · floración ornamental",
+        "Necesita lluvias o riego": "Riego de establecimiento. Deja secar entre riegos y evita encharcar.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Dirige las ramas con amarres holgados y reserva espacio para las espinas.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Heladas, riego y soporte [11]."
+      },
+      {
+        "Cultivo": "Rosas de jardín",
+        "Tipo": "Flor",
+        "Meses de siembra directa": "—",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Feb–mar, rosal de vivero",
+        "Cosecha (días o meses)": "2–4 meses · primer corte orientativo desde trasplante",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí, brotes nuevos",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Da espacio entre rosales para secar el follaje. Corta por encima de una yema orientada hacia fuera.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Pasto bermuda",
+        "Tipo": "Ornamental",
+        "Meses de siembra directa": "Abr–jun, semilla de variedad fértil",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "Abr–jul, tepe",
+        "Cosecha (días o meses)": "Sin cosecha · cobertura de suelo",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "Sí, follaje",
+        "Fase lunar tradicional recomendada": "Sin pauta específica para este método",
+        "Consejo práctico": "Para el primer corte, espera a que el tepe resista un tirón suave. Evita el tránsito mientras enraíza.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Cempasúchil",
+        "Tipo": "Flor",
+        "Meses de siembra directa": "May–jul",
+        "Meses de almácigo": "Jun–jul",
+        "Meses de trasplante": "Jul–ago",
+        "Cosecha (días o meses)": "70–110 días · flor desde siembra",
+        "Necesita lluvias o riego": "Humedad regular. Complementa la lluvia con riego al pie.",
+        "Sensible a heladas": "Sí",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Para cortar en octubre, elige la variedad por duración indicada en el sobre y escalona dos tandas.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Girasol",
+        "Tipo": "Flor",
+        "Meses de siembra directa": "Mar–jul",
+        "Meses de almácigo": "—",
+        "Meses de trasplante": "—",
+        "Cosecha (días o meses)": "60–100 días · flor desde siembra",
+        "Necesita lluvias o riego": "Temporal establecido o riego de apoyo en periodos secos.",
+        "Sensible a heladas": "Sí, plántula",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Siembra en el sitio definitivo. Reserva la parte trasera de la cama para las variedades altas.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      },
+      {
+        "Cultivo": "Caléndula",
+        "Tipo": "Flor",
+        "Meses de siembra directa": "Sep–feb",
+        "Meses de almácigo": "Sep–ene",
+        "Meses de trasplante": "Oct–feb",
+        "Cosecha (días o meses)": "50–80 días · flor desde siembra",
+        "Necesita lluvias o riego": "Riego regular en secas. Ajusta a la humedad del suelo.",
+        "Sensible a heladas": "No",
+        "Fase lunar tradicional recomendada": "Creciente · tradicional",
+        "Consejo práctico": "Retira flores pasadas si buscas prolongar la floración.",
+        "Estado": "NO VERIFICADO",
+        "Dato verificado y fuente": "Sin respaldo específico citado para esta ficha."
+      }
+    ],
+    "HuertoMensual": [
+      {
+        "Mes": "Enero",
+        "Siembra, trasplante o cosecha": "Siembra una tanda corta de rábano y cilantro. Corta solamente las hojas externas de la acelga.",
+        "Qué revisar en el predio": "En noches con aviso de helada, resguarda las charolas y registra en qué rincón amaneció escarcha.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Febrero",
+        "Siembra, trasplante o cosecha": "Inicia jitomate y chile en semillero protegido. Etiqueta cada lote con su variedad y fecha.",
+        "Qué revisar en el predio": "Trasplanta primero las lechugas endurecidas. Conserva las hortalizas de fruto bajo protección si continúan las noches frías.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Marzo",
+        "Siembra, trasplante o cosecha": "Inicia aromáticas y una tanda de pepino si cuentas con riego. Aclimata los jitomates antes de pasarlos a la cama.",
+        "Qué revisar en el predio": "Comprueba que el agua alcance toda la línea de goteo y que el suelo esté tibio.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Abril",
+        "Siembra, trasplante o cosecha": "Siembra calabacita por tandas con riego y coloca una malla para el pepino.",
+        "Qué revisar en el predio": "Observa qué macetas pierden humedad primero. Acolcha cuando la tierra esté húmeda.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Mayo",
+        "Siembra, trasplante o cosecha": "Prepara el espacio de la milpa y revisa tutores, salidas de agua y semilla disponible.",
+        "Qué revisar en el predio": "Para temporal, espera humedad sostenida a profundidad de siembra. Un chubasco aislado puede ser insuficiente.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Junio",
+        "Siembra, trasplante o cosecha": "Si el temporal ya se estableció, siembra maíz, frijol y calabaza. Marca la fecha de emergencia.",
+        "Qué revisar en el predio": "Antes de colocar un frutal, revisa si el hoyo retiene agua después de una lluvia y elige un lugar que drene.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Julio",
+        "Siembra, trasplante o cosecha": "Guía ejotes y chayotes. Trasplanta cempasúchil cuando el cepellón esté formado.",
+        "Qué revisar en el predio": "Revisa amarres tras los vientos y despeja salidas de agua si llovió con fuerza.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Agosto",
+        "Siembra, trasplante o cosecha": "Corta ejotes y calabacitas tiernas. Revisa al amanecer el envés de hojas y los frutos bajos.",
+        "Qué revisar en el predio": "Reduce el riego donde la tierra siga húmeda. Si un lote tuvo daños, registra cultivo y síntomas.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Septiembre",
+        "Siembra, trasplante o cosecha": "Inicia almácigos de brócoli, col y coliflor. Reserva una cama para el siguiente trasplante.",
+        "Qué revisar en el predio": "Protege charolas de aguaceros y deja pasar aire. Trasplanta cuando las raíces sujeten el cepellón.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Octubre",
+        "Siembra, trasplante o cosecha": "Establece lechuga y coles, y siembra ajo por dientes. Escalona los lotes de hoja.",
+        "Qué revisar en el predio": "Antes de reducir el riego, revisa humedad a la profundidad de las raíces.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Noviembre",
+        "Siembra, trasplante o cosecha": "Siembra chícharo o haba. Para guardar frijol, separa vainas maduras y termina de secarlas bajo techo.",
+        "Qué revisar en el predio": "Revisa que el grano esté seco antes de almacenarlo. Prepara protección para papaya y plantas recién trasplantadas.",
+        "Estado": "NO VERIFICADO"
+      },
+      {
+        "Mes": "Diciembre",
+        "Siembra, trasplante o cosecha": "Siembra otro tramo de rábano o cilantro y cosecha las hojas externas de espinaca.",
+        "Qué revisar en el predio": "Compara los días reales a primer corte entre lotes y anota qué rincón del patio sufrió más frío.",
+        "Estado": "NO VERIFICADO"
+      }
+    ]
+  },
+  "notas": [
+    {
+      "A1": "Almanaque Ribera 2027   /   Siembra en el huerto"
+    },
+    {
+      "A2": "Zapopan · 1,560 m     /     Ajijic y Chapala · 1,520 m aprox.     /     45 cultivos y 12 meses de labores",
+      "G2": "Decide con la humedad de la tierra, el frío del sitio y el riego disponible. La columna lunar recoge una tradición [6, 7]."
+    },
+    {
+      "A3": "Meses orientativos para exterior. «—» indica que se eligió otro método. Los meses de trasplante incluyen la plantación de material de vivero.",
+      "G3": "Estado se refiere a la ficha completa en ambas zonas. La última columna identifica cada dato con respaldo y su fuente. Los demás datos tienen estado NO VERIFICADO."
+    },
+    {
+      "A4": "Cosecha: «ciclo» reproduce la duración de referencia [2]. En cultivos de trasplante, la fuente no precisa el punto de partida. Los demás plazos indican su origen.",
+      "G4": "Helada: «No» indica tolerancia relativa a una helada ligera en una planta establecida. Las plántulas, flores y brotes pueden requerir protección."
+    },
+    {
+      "A52": "Qué hacer en el huerto este mes"
+    },
+    {
+      "A67": "Temporadas documentadas en Zapopan"
+    },
+    {
+      "A68": "Ámbito",
+      "B68": "Cultivos",
+      "E68": "Dato publicado",
+      "I68": "Estado"
+    },
+    {
+      "A69": "Zapopan [1]",
+      "B69": "Cebolla, lechuga, brócoli, col y coliflor",
+      "E69": "El programa municipal recomienda cultivarlos en otoño e invierno. La referencia describe octubre a febrero.",
+      "I69": "VERIFICADO"
+    },
+    {
+      "A70": "Zapopan [1]",
+      "B70": "Zanahoria, cilantro, espinaca y rábano",
+      "E70": "DIF Zapopan los identifica como cultivos que pueden mantenerse durante todo el año.",
+      "I70": "VERIFICADO"
+    },
+    {
+      "A72": "Fuentes y alcance de la consulta"
+    },
+    {
+      "A73": "[1]",
+      "B73": "DIF Zapopan · Huertos Urbanos Otoño Invierno 2019. Temporadas de cultivo en el municipio.",
+      "G73": "https://www.difzapopan.gob.mx/se-iniciaron-huertos-urbanos-otono-invierno-2019/"
+    },
+    {
+      "A74": "[2]",
+      "B74": "Huertos sostenibles para la seguridad alimentaria en la agricultura rural familiar · cuadro 1. Ciclo vegetal y método, referencia mexicana.",
+      "G74": "https://biblioteca.semarnat.gob.mx/janium/Documentos/Ciga/libros2023/CD009604.pdf"
+    },
+    {
+      "A75": "[3]",
+      "B75": "Universidad de Florida · Tropical and Subtropical Fruit Propagation. Métodos de vivero.",
+      "G75": "https://edis.ifas.ufl.edu/publication/HS1349/pdf"
+    },
+    {
+      "A76": "[4]",
+      "B76": "Universidad de Florida · Avocado Growing in the Florida Home Landscape. Cuadro 1, tolerancia al frío.",
+      "G76": "https://edis.ifas.ufl.edu/publication/MG213/pdf"
+    },
+    {
+      "A77": "[5]",
+      "B77": "Universidad de Florida · Papaya Growing in the Florida Home Landscape. Plazo en condiciones cálidas.",
+      "G77": "https://edis.ifas.ufl.edu/publication/MG054/pdf"
+    },
+    {
+      "A78": "[6]",
+      "B78": "University of Detroit Mercy · Archivo James T. Callow. Tradición lunar de cultivos sobre y bajo tierra.",
+      "G78": "https://libraries.udmercy.edu/find/special_collections/digital/cfa/index.php?fl_id=18737"
+    },
+    {
+      "A79": "[7]",
+      "B79": "Mayoral y colaboradores · Agronomy (2020). Revisión de la evidencia sobre agricultura lunar.",
+      "G79": "https://doi.org/10.3390/agronomy10070955"
+    },
+    {
+      "A80": "[8]",
+      "B80": "Universidad de Minnesota · Growing tomatoes in home gardens. Requerimiento de un periodo sin heladas.",
+      "G80": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes"
+    },
+    {
+      "A81": "[9]",
+      "B81": "SENASICA · Boletín de Jalisco, 23 jun 2025. Avance histórico del maíz de temporal a escala estatal.",
+      "G81": "https://dj.senasica.gob.mx/Contenido/files/boletin/2025/guscog/Jalisco/junio/BoletinSAF_GC_PV_Jalisco2025_No08_27950270-2573-4c69-9d0b-92a549017b11.pdf"
+    },
+    {
+      "A82": "[10]",
+      "B82": "NC State Extension · Lavandula angustifolia. Drenaje y propagación.",
+      "G82": "https://plants.ces.ncsu.edu/plants/lavandula-angustifolia/common-name/common-lavender/"
+    },
+    {
+      "A83": "[11]",
+      "B83": "NC State Extension · Bougainvillea glabra. Sensibilidad a heladas, soporte y riego.",
+      "G83": "https://plants.ces.ncsu.edu/plants/bougainvillea-glabra/"
+    },
+    {
+      "A85": "Datos NO VERIFICADOS"
+    },
+    {
+      "A86": "Ventanas por localidad",
+      "B86": "Las ventanas mensuales propuestas para Ajijic y Chapala y las de Zapopan sin fuente local son orientativas. Las fechas de almácigo y trasplante se ajustan al desarrollo y las heladas del sitio.",
+      "I86": "NO VERIFICADO"
+    },
+    {
+      "A87": "Cosecha y manejo",
+      "B87": "Los ciclos publicados son referencias generales. Quedan pendientes el primer corte local por variedad, el riego de cada predio, la tolerancia local a heladas y todo consejo sin respaldo identificado en su ficha.",
+      "I87": "NO VERIFICADO"
+    },
+    {
+      "A88": "Frutales tropicales",
+      "B88": "La producción de papaya, mango y plátano a estas altitudes depende del microclima. Los intervalos de primera cosecha requieren confirmación local.",
+      "I88": "NO VERIFICADO"
+    },
+    {
+      "A89": "Resumen y tradición",
+      "B89": "Las 12 labores mensuales son propuestas condicionadas al predio. La tradición creciente/menguante está documentada [6]. Su eficacia agronómica y su arraigo específico en la Ribera quedan sin verificar [7].",
+      "I89": "NO VERIFICADO"
+    }
+  ]
+}
