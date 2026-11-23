@@ -1,7 +1,7 @@
 const base = self.registration.scope;
 const prefix = "ribera-" + new URL(base).pathname + "-";
-const version = prefix + "b78cf6af4348a2bbfdc7";
-const assets = ["app.js", "assets/icon-192.png", "assets/icon-512.png", "assets/ribera.svg", "assets/sello.svg", "data/cielo.json", "data/fechas-clima.json", "data/siembra.json", "index.html", "manifest.webmanifest", "styles.css"].map(path => new URL(path, base).href);
+const version = prefix + "3b5ec9705eb3fa41bdb3";
+const assets = ["app.js", "assets/icon-192.png", "assets/icon-512.png", "assets/ribera.svg", "assets/sello.svg", "cuaderno.css", "cuaderno.js", "data/cielo.json", "data/fechas-clima.json", "data/siembra.json", "index.html", "manifest.webmanifest", "styles.css"].map(path => new URL(path, base).href);
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(version).then(cache =>
     cache.addAll(assets.map(url => new Request(url, {cache: "reload"})))

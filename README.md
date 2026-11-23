@@ -1,6 +1,6 @@
 # Almanaque Ribera 2027
 
-Almanaque personal de Joe para Zapopan y la Ribera de Chapala. La etapa 1 incluye la pantalla **Hoy**, el conversor de las cuatro hojas y la PWA offline. La interfaz usa HTML, CSS y JavaScript locales. Para probarla desde la raíz del repositorio, ejecuta `python -m http.server 8000 --directory public` y abre <http://localhost:8000>. En Windows puedes usar `py` en lugar de `python`.
+Almanaque personal de Joe para Zapopan y la Ribera de Chapala. La etapa 2 incluye **Hoy**, **Calendario** y **Siembra**, el conversor de las cuatro hojas y la PWA offline. [Abrir la aplicación publicada](https://lucojoma-byte.github.io/almanaque-ribera-2027/). La interfaz usa HTML, CSS y JavaScript locales. Para probarla desde la raíz del repositorio, ejecuta `python -m http.server 8000 --directory public` y abre <http://localhost:8000>. En Windows puedes usar `py` en lugar de `python`.
 
 ## Actualizar y publicar en tres pasos
 
@@ -17,3 +17,6 @@ Las horas solares, la iluminación y las fases provienen de CIELO. La base regis
 El conversor preserva textos, valores vacíos, estados y notas del libro. Serializa fechas y horas en formato ISO. Un porcentaje de Excel permanece como fracción en JSON y se presenta como porcentaje en la pantalla. Las fórmulas requieren un valor calculado guardado desde Excel.
 
 Para instalar la PWA, abre el sitio publicado en el navegador y usa **Instalar aplicación** o **Agregar a inicio**. Cuando aparezca **Disponible sin conexión**, podrás volver a abrir la edición sin red. Después de publicar una actualización, visita la app con conexión y cierra las ventanas anteriores para activar la nueva copia.
+
+
+En **Calendario**, toca un día para abrir su ficha solar, lunar, civil y escolar. En **Siembra**, el filtro de mes incluye siembra directa, almácigo y trasplante. Cada ficha conserva los meses, las condiciones y la fuente que figuran en Excel. El botón **¿Qué siembro este mes?** usa el mes actual de Jalisco y restablece los demás filtros.
