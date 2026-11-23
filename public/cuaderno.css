@@ -19,3 +19,28 @@
 .cultivos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}.cultivo summary{cursor:pointer;justify-content:space-between;padding:14px 18px;list-style:none}.cultivo summary::-webkit-details-marker{display:none}.cultivoNombre{display:flex;flex:1;flex-direction:column}.cultivoNombre small{color:var(--muted);font-size:12px}.cultivoNombre strong{font:24px/1.25 Georgia,serif;color:var(--ink)}.desplegar{color:var(--muted);font-weight:bold}.cultivo[open] .desplegar{transform:rotate(180deg)}.cultivoDatos{padding:0 18px 18px}.cultivoDatos .facts>div{padding-top:8px;margin-top:8px}.coincide{border-left:3px solid var(--ink);padding-left:9px}.sinResultados{grid-column:1/-1;padding:18px}
 @media(max-width:690px){.filtros{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cultivos{grid-template-columns:1fr}.sections{gap:5px}.sections a{font-size:15px}.dia{min-height:55px;padding:5px}.marcas{gap:1px}.marca{font-size:15px}.mesBar{padding:12px}.leyenda{padding:12px;gap:6px 12px}.ficha{padding-inline:14px}.cultivo summary{padding:12px}.campo,.campo select{font-size:14px}}
 @media(max-width:380px){.sections a{gap:5px;padding-inline:5px}.dia{padding:4px 2px}.filtros{padding:12px}.atajos{gap:6px}.accion{padding-inline:8px}.ficha h2{font-size:21px}.fichaGrupo{flex-wrap:wrap}}
+.sections{flex-wrap:wrap;column-gap:16px;row-gap:0}
+.acceso-privado{margin-top:24px;padding:17px 0 0;border-top:1px solid var(--line)}
+.acceso-privado a{display:inline-flex;align-items:center;text-decoration:none}
+.acceso-privado a::after{content:"↗";margin-left:8px}
+.explorador{grid-template-columns:1fr 1fr auto;align-items:end}
+.ayuda-cielo{grid-column:1/-1;color:var(--muted);font-size:15px}
+.agenda-cielo{list-style:none;padding:0;margin:0 0 14px;display:grid;gap:10px}
+.evento-cielo{display:grid;grid-template-columns:minmax(95px,125px) 1fr;background:var(--paper);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.evento-cielo>div{padding:16px}.fecha-evento{background:var(--wash);display:flex;flex-direction:column;justify-content:center;gap:4px}
+.fecha-evento strong{font:24px Georgia,serif;color:var(--ink)}.fecha-evento small{font-size:14px;color:var(--muted)}
+.evento-cielo h2{font:24px Georgia,serif;color:var(--ink);margin-bottom:6px}.evento-cielo p{margin:5px 0}
+.panel-clima{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:20px}
+.cab-clima{display:flex;align-items:end;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.periodo-clima{font-size:15px;color:var(--muted)}.grafica-lluvia{margin:22px 0}
+.grafica-lluvia figcaption,.tabla-clima caption{color:var(--ink);font:24px Georgia,serif;text-align:left;margin-bottom:12px}
+.barras-lluvia{max-width:850px}.renglon-lluvia{display:grid;grid-template-columns:84px 1fr 47px;gap:10px;align-items:center;margin:5px 0;font-size:15px}
+.renglon-lluvia>span:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.pista{height:10px;background:var(--wash);border-radius:2px;overflow:hidden}.pista>span{height:100%;display:block;background:var(--blue)}
+.scroll-tabla{max-width:100%;overflow-x:auto}.tabla-clima{width:100%;border-collapse:collapse;font-size:15px}
+.tabla-clima th,.tabla-clima td{text-align:left;border-bottom:1px solid var(--line);padding:9px 8px;font-variant-numeric:tabular-nums}
+.tabla-clima thead{background:var(--wash);color:var(--ink)}.tabla-clima th[scope=row]{font-weight:600}
+@media(max-width:690px){.sections{column-gap:2px}.sections a{padding:10px 6px 8px}.sections .ico{display:none}
+.explorador{grid-template-columns:1fr 1fr}.explorador>button{grid-column:1/-1}.panel-clima{padding:14px}
+.evento-cielo{grid-template-columns:85px 1fr}.evento-cielo>div{padding:10px}.fecha-evento strong{font-size:20px}.evento-cielo h2{font-size:21px}
+.tabla-clima{min-width:550px}.renglon-lluvia{gap:6px}.cab-clima .campo{max-width:100%}}

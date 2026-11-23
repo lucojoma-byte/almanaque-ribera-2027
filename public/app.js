@@ -155,7 +155,7 @@ async function start() {
   render(todayInEdition());
   sourceNotes(sets);
   $("cards").hidden = false;
-  iniciarCuaderno({sky, civil, crops: sets[2].tablas.Cultivos, getDay: () => selected, realToday, first, last});
+  iniciarCuaderno({sky, civil, crops: sets[2].tablas.Cultivos, clima: sets[1].tablas.NormalesSMN, getDay: () => selected, realToday, first, last});
   const change = day => {
     if (!day || day < first || day > last) { $("date").value = selected; return; }
     followingToday = day === realToday();

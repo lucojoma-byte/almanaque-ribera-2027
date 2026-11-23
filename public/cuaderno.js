@@ -53,6 +53,7 @@ function cabeceraVista(titulo, subtitulo, id) {
 function selector(label, entries, prompt) {
   const wrapper = node("label",label,"campo");
   const control = node("select");
+  control.setAttribute("aria-label",label);
   if (prompt) control.append(new Option(prompt,""));
   entries.forEach(([v,t]) => control.append(new Option(t,v)));
   wrapper.append(control);
@@ -208,10 +209,12 @@ function iniciarSiembra({crops,realToday}) {
 function iniciarCuaderno(datos) {
   const calendario = iniciarCalendario(datos);
   iniciarSiembra(datos);
+  const refrescarCielo = iniciarCielo(datos.sky);
+  iniciarClima(datos.clima);
   const links = [...document.querySelectorAll(".sections a")];
   function navegar() {
     const vista = location.hash.slice(1);
-    const activo = ["calendario","siembra"].includes(vista) ? vista : "hoy";
+    const activo = ["calendario","siembra","cielo","clima"].includes(vista) ? vista : "hoy";
     for (const link of links) {
       const key=link.hash.slice(1), enabled=key===activo;
       $("vista-"+key).hidden = !enabled;
@@ -219,6 +222,7 @@ function iniciarCuaderno(datos) {
       else link.removeAttribute("aria-current");
     }
     if (activo==="calendario") calendario();
+    if (activo==="cielo") refrescarCielo();
     if (vista !== "main") window.scrollTo(0,0);
   }
   window.addEventListener("hashchange",navegar);

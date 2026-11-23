@@ -19,9 +19,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Preparar exclusivamente la edición pública
+        run: |
+          while IFS= read -r file || [ -n "$file" ]; do
+            install -D -m 644 "public/$file" "sitio/$file"
+          done < scripts/public-files.txt
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: sitio
       - name: Publicar
         id: deploy
         uses: actions/deploy-pages@v4

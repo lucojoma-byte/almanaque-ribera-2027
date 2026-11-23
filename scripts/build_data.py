@@ -1,4 +1,4 @@
-"""Actualiza las cuatro hojas JSON y la versión de la PWA a partir del libro base."""
+"""Publica las tres hojas autorizadas del libro y actualiza la caché offline."""
 import argparse
 import hashlib
 import json
@@ -15,7 +15,6 @@ SHEETS = {
     "CIELO": ("cielo", ["CieloDiario"]),
     "SIEMBRA": ("siembra", ["Cultivos"]),
     "FECHAS Y CLIMA": ("fechas-clima", ["FechasDiarias", "NormalesSMN"]),
-    "NEGOCIO Y VIDA": ("negocio-vida", ["AgendaMensual"]),
 }
 
 
@@ -85,10 +84,9 @@ def build(source):
     finally:
         book.close()
         cached.close()
-    assets = {p.relative_to(public).as_posix(): p.read_bytes() for p in sorted(public.rglob("*"))
-              if p.is_file() and p.relative_to(public).parts[0] != "data" and p.name != "sw.js"}
-    # La edición pública actual solo consulta las tres hojas del cuaderno.
-    assets.update({name: data for name, data in outputs.items() if name != "data/negocio-vida.json"})
+    names = (ROOT / "scripts/public-files.txt").read_text(encoding="utf-8").splitlines()
+    assets = {name: outputs[name] if name in outputs else (public / name).read_bytes()
+              for name in names if name and name != "sw.js"}
     template = (ROOT / "scripts/sw.template.js").read_bytes()
     digest = hashlib.sha256(template)
     for name, content in sorted(assets.items()):
@@ -96,10 +94,12 @@ def build(source):
     version = digest.hexdigest()[:20]
     worker = template.decode().replace("__BUILD__", version).replace("__ASSETS__", json.dumps(sorted(assets)))
     (public / "data").mkdir(exist_ok=True)
+    # Retira la salida generada por versiones anteriores del conversor.
+    (public / "data/negocio-vida.json").unlink(missing_ok=True)
     for name, content in outputs.items():
         replace_file(public / name, content)
     replace_file(public / "sw.js", worker.encode())
-    print(f"4 hojas convertidas. Versión offline {version}.")
+    print(f"{len(SHEETS)} hojas públicas convertidas. Versión offline {version}.")
 
 
 if __name__ == "__main__":

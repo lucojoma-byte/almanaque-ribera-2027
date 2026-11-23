@@ -2,5 +2,10 @@ __pycache__/
 .venv/
 *.pyc
 ~$*.xlsx
-/data/*.xlsx
-/public/data/negocio-vida.json
+/data/
+*.xlsx
+*.zip
+/public/data/*
+!/public/data/cielo.json
+!/public/data/siembra.json
+!/public/data/fechas-clima.json

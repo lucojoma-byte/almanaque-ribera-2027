@@ -1,0 +1,15 @@
+index.html
+styles.css
+cuaderno.css
+app.js
+cuaderno.js
+naturaleza.js
+manifest.webmanifest
+assets/icon-192.png
+assets/icon-512.png
+assets/ribera.svg
+assets/sello.svg
+data/cielo.json
+data/siembra.json
+data/fechas-clima.json
+sw.js
