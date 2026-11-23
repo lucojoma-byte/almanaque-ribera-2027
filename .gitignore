@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+*.pyc
+~$*.xlsx
+/data/*.xlsx
+/public/data/negocio-vida.json
