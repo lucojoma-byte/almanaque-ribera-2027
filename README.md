@@ -27,4 +27,4 @@ En **Calendario**, toca un día para abrir su ficha solar, lunar, civil y escola
 
 **Clima** muestra las normales históricas de cada estación, la lluvia media mensual y el estado del registro. La gráfica usa la misma escala para las tres estaciones.
 
-**Negocio y Familia (privado)** abre Gemini en una pestaña externa. Para cambiar la URL provisional por la Gema de Joe, edita el atributo `href` del enlace `id="enlace-gema"` en `public/index.html`, vuelve a correr el conversor y publica. Configura el acceso a la Gema en Gemini.
+**Negocio y Familia (NotebookLM privado)** abre el cuaderno de NotebookLM en una pestaña externa. El enlace se configura en el atributo `href` de `id="enlace-gema"` en `public/index.html`. Los permisos del cuaderno se administran en NotebookLM.
