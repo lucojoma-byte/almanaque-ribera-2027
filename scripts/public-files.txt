@@ -13,3 +13,4 @@ data/cielo.json
 data/siembra.json
 data/fechas-clima.json
 sw.js
+assets/qr-suscripcion.svg

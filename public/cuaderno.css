@@ -44,3 +44,11 @@
 .explorador{grid-template-columns:1fr 1fr}.explorador>button{grid-column:1/-1}.panel-clima{padding:14px}
 .evento-cielo{grid-template-columns:85px 1fr}.evento-cielo>div{padding:10px}.fecha-evento strong{font-size:20px}.evento-cielo h2{font-size:21px}
 .tabla-clima{min-width:550px}.renglon-lluvia{gap:6px}.cab-clima .campo{max-width:100%}}
+.suscripcion{margin-top:24px;padding:20px;border:1px solid var(--line);border-radius:8px;background:var(--paper);display:flex;gap:20px;align-items:center;justify-content:space-between}
+.suscripcion h2{margin:0 0 8px;font-size:21px;color:var(--ink)}
+.suscripcion p{margin:0 0 8px;color:var(--body);font-size:15px;line-height:1.45}
+.suscripcion p[lang=en]{color:var(--muted)}
+.suscripcion .accion{display:inline-flex;align-items:center;text-decoration:none;margin-top:6px}
+.suscripcion .accion::after{content:"↗";margin-left:8px}
+.suscripcion-qr{flex:none;width:132px;height:132px;background:#fff;border-radius:6px}
+@media(max-width:560px){.suscripcion{flex-direction:column;align-items:flex-start}}
