@@ -218,7 +218,7 @@ function iniciarCuaderno(datos) {
     for (const link of links) {
       const key=link.hash.slice(1), enabled=key===activo;
       $("vista-"+key).hidden = !enabled;
-      if (enabled) {link.setAttribute("aria-current","page");document.title=link.textContent+" · Almanaque Ribera 2027";}
+      if (enabled) {link.setAttribute("aria-current","page");document.title=link.textContent+" · Lakeside Almanac — Almanaque de la Ribera de Chapala · 2027";}
       else link.removeAttribute("aria-current");
     }
     if (activo==="calendario") calendario();

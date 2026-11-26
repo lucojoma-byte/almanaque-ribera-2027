@@ -1,6 +1,6 @@
 const base = self.registration.scope;
 const prefix = "ribera-" + new URL(base).pathname + "-";
-const version = prefix + "ca0e850900e33234b474";
+const version = prefix + "afe8e9886dd2b7546dcb";
 const assets = ["app.js", "assets/icon-192.png", "assets/icon-512.png", "assets/qr-suscripcion.svg", "assets/ribera.svg", "assets/sello.svg", "cuaderno.css", "cuaderno.js", "data/cielo.json", "data/fechas-clima.json", "data/siembra.json", "index.html", "manifest.webmanifest", "naturaleza.js", "privacidad.html", "reglas.html", "styles.css"].map(path => new URL(path, base).href);
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(version).then(cache =>

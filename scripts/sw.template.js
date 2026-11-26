@@ -5,7 +5,7 @@ const assets = __ASSETS__.map(path => new URL(path, base).href);
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(version).then(cache =>
     cache.addAll(assets.map(url => new Request(url, {cache: "reload"})))
-  ).then(() => self.skipWaiting()));
+  ));
 });
 self.addEventListener("activate", event => {
   event.waitUntil((async () => {
@@ -19,10 +19,7 @@ self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
   if (!url.href.startsWith(base)) return;
-  const page = new URL(url.pathname, url.origin).href;
-  const key = event.request.mode === "navigate"
-    ? (page === base ? new URL("index.html", base).href : page)
-    : url.href;
+  const key = event.request.mode === "navigate" ? new URL("index.html", base).href : url.href;
   if (!assets.includes(key)) return;
   event.respondWith(caches.open(version).then(async cache => (await cache.match(key)) || fetch(event.request)));
 });
