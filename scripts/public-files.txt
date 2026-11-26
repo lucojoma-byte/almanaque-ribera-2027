@@ -1,5 +1,6 @@
 index.html
 privacidad.html
+reglas.html
 styles.css
 cuaderno.css
 app.js
