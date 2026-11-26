@@ -51,6 +51,10 @@
 .suscripcion p[lang=en]{color:var(--muted)}
 .suscripcion .accion{display:inline-flex;align-items:center;text-decoration:none;margin-top:6px}
 .suscripcion .accion::after{content:"↗";margin-left:8px}
+.suscripcion-enlaces{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-top:8px}
+.suscripcion-enlaces .accion{margin-top:0}
+.suscripcion-qr-enlace{display:inline-flex;flex:none;border-radius:6px}
+.suscripcion-qr-enlace:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
 .suscripcion-qr{flex:none;width:132px;height:132px;background:#fff;border-radius:6px}
 @media(max-width:560px){.suscripcion{flex-direction:column;align-items:flex-start}}
 
