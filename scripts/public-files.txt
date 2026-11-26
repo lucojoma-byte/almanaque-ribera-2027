@@ -1,4 +1,5 @@
 index.html
+privacidad.html
 styles.css
 cuaderno.css
 app.js

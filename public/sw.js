@@ -1,7 +1,7 @@
 const base = self.registration.scope;
 const prefix = "ribera-" + new URL(base).pathname + "-";
-const version = prefix + "59eb44cf8c27024cc5c9";
-const assets = ["app.js", "assets/icon-192.png", "assets/icon-512.png", "assets/qr-suscripcion.svg", "assets/ribera.svg", "assets/sello.svg", "cuaderno.css", "cuaderno.js", "data/cielo.json", "data/fechas-clima.json", "data/siembra.json", "index.html", "manifest.webmanifest", "naturaleza.js", "styles.css"].map(path => new URL(path, base).href);
+const version = prefix + "e71a86ce890506b48b7f";
+const assets = ["app.js", "assets/icon-192.png", "assets/icon-512.png", "assets/qr-suscripcion.svg", "assets/ribera.svg", "assets/sello.svg", "cuaderno.css", "cuaderno.js", "data/cielo.json", "data/fechas-clima.json", "data/siembra.json", "index.html", "manifest.webmanifest", "naturaleza.js", "privacidad.html", "styles.css"].map(path => new URL(path, base).href);
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(version).then(cache =>
     cache.addAll(assets.map(url => new Request(url, {cache: "reload"})))
@@ -23,4 +23,3 @@ self.addEventListener("fetch", event => {
   if (!assets.includes(key)) return;
   event.respondWith(caches.open(version).then(async cache => (await cache.match(key)) || fetch(event.request)));
 });
-
