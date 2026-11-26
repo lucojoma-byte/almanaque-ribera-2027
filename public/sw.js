@@ -1,11 +1,11 @@
 const base = self.registration.scope;
 const prefix = "ribera-" + new URL(base).pathname + "-";
-const version = prefix + "4a7e6ee56fff3e05dbde";
+const version = prefix + "ca0e850900e33234b474";
 const assets = ["app.js", "assets/icon-192.png", "assets/icon-512.png", "assets/qr-suscripcion.svg", "assets/ribera.svg", "assets/sello.svg", "cuaderno.css", "cuaderno.js", "data/cielo.json", "data/fechas-clima.json", "data/siembra.json", "index.html", "manifest.webmanifest", "naturaleza.js", "privacidad.html", "reglas.html", "styles.css"].map(path => new URL(path, base).href);
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(version).then(cache =>
     cache.addAll(assets.map(url => new Request(url, {cache: "reload"})))
-  ));
+  ).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", event => {
   event.waitUntil((async () => {
@@ -19,7 +19,10 @@ self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
   if (!url.href.startsWith(base)) return;
-  const key = event.request.mode === "navigate" ? new URL("index.html", base).href : url.href;
+  const page = new URL(url.pathname, url.origin).href;
+  const key = event.request.mode === "navigate"
+    ? (page === base ? new URL("index.html", base).href : page)
+    : url.href;
   if (!assets.includes(key)) return;
   event.respondWith(caches.open(version).then(async cache => (await cache.match(key)) || fetch(event.request)));
 });
